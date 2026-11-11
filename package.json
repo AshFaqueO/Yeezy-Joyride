@@ -1,0 +1,21 @@
+{
+  "name": "yeezy-joyride",
+  "private": true,
+  "version": "1.0.0",
+  "description": "YEEZY JOYRIDE - a 16-bit pixel-art rooftop endless runner built with Vite + TypeScript + Phaser 4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "zip:itch": "npm run build && cd dist && zip -r ../yeezy-joyride-itch.zip .",
+    "zip:itch:win": "npm run build && %SystemRoot%\\System32\\tar.exe -a -c -f yeezy-joyride-itch.zip -C dist assets index.html"
+  },
+  "dependencies": {
+    "phaser": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7"
+  }
+}
