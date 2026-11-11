@@ -5,6 +5,8 @@ the New York skyline, weave through electric zappers and camera drones, and grab
 Golden Vinyl records. Built with **Vite + TypeScript + Phaser 4**; plays on
 desktop (keyboard or mouse) and mobile (touch).
 
+Play at https://ashfaque0.itch.io/yetpack-yeride
+
 > Fan-made parody project. Not affiliated with, endorsed by, or connected to
 > Kanye West, Eminem, Halfbrick Studios, or any rights holder. See
 > [Credits and rights](#credits-and-rights) before you publish a copy.
